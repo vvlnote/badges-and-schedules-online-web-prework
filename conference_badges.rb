@@ -26,7 +26,3 @@ def printer(attendees)
     puts "#{arr_room_assignment[i]}"
   end
 end
-
-#attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-
-#printer(attendees)
