@@ -27,6 +27,6 @@ def printer(attendees)
   end
 end
 
-attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+#attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-printer(attendees)
+#printer(attendees)
