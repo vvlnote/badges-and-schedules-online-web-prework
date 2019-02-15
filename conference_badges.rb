@@ -22,9 +22,11 @@ def printer(attendees)
 binding.pry
   for i in 0..attendees.size do
     puts "#{arr_badges[i]}"
+binding.pry
   end
   for i in 0..attendees.size do
     puts "#{arr_room_assignment[i]}"
+binding.pry
   end
 end
 
