@@ -20,11 +20,11 @@ def printer(attendees)
   arr_badges = batch_badge_creator(attendees)
   arr_room_assignment = assign_rooms(attendees)
 #binding.pry
-  for i in 0..attendees.size do
+  for i in 0...attendees.size do
     puts "#{arr_badges[i]}"
 binding.pry
   end
-  for i in 0..attendees.size do
+  for i in 0...attendees.size do
     puts "#{arr_room_assignment[i]}"
 binding.pry
   end
